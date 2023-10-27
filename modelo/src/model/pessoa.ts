@@ -119,4 +119,12 @@ public andar():void {
 public andarRapido(_rapido: number) {
 console.log(`${this.nome} anda: ${_rapido}`);
 }
+
+/**
+ * CRUD
+ */
+
+cadastroPessoa(pessoa: Pessoa) {
+      console.log(`$(bananinha.nome) cadastrado com sucesso`);
+   }
 }
